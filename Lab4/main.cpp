@@ -1,22 +1,35 @@
 #include "funs.h"
+#include <iostream>
+#include <cassert>
+class massive{
+    int *x;
+    int len = 1024;
+public:
+    massive() {
+        cout <<  len << " slots massive is created!" << endl;
+        x = new int[len];
+    }
+    ~massive(){
+        delete []x;
+        cout << "massive of " << len << " is deleted!" << endl;
+    }
+    void setx(int index,int X){
+        x[index] = X;
+    }
 
+    void prind(){
+        for (int i = 0; i < len; ++i) {
+            cout << "your massive:" << x[i] << endl;
+        }
+    }
+};
 int main()
 {
-    const int len = 3;
 
-    figura *dyn = new figura[len]{
-         figura(666,999),
-         figura(),
-         figura(69,69)
-    };
-    dyn[333] = figura(123,321);
-    dyn[333].print();
-    dyn[0].print();
-    dyn[1].print();
-    dyn[2].print();
-    dyn[100] = figura(300,1200);
-    dyn[20] = figura(200);
-    dyn[20].print();
-    delete []dyn;
+   massive one;
+   one.setx(1,123);
+   system("pause");
+   cout << sizeof one  << endl;
+
     return 0;
 }
