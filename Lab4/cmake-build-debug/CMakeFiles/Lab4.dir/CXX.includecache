@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/David/Desktop/Programming stuff/cLion/Lab4/funs.h
+C:/Users/David/Desktop/Programming stuff/GitHub/lab4/Lab4/funs.h
 iostream
 -
 string
@@ -14,7 +14,7 @@ string
 algorithm
 -
 
-C:/Users/David/Desktop/Programming stuff/cLion/Lab4/main.cpp
+C:/Users/David/Desktop/Programming stuff/GitHub/lab4/Lab4/main.cpp
 funs.h
-C:/Users/David/Desktop/Programming stuff/cLion/Lab4/funs.h
+C:/Users/David/Desktop/Programming stuff/GitHub/lab4/Lab4/funs.h
 
