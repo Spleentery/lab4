@@ -4,6 +4,5 @@
 CMakeFiles\Lab4.dir\funs.cpp.obj: ..\funs.cpp
 CMakeFiles\Lab4.dir\funs.cpp.obj: ..\funs.h
 
-CMakeFiles\Lab4.dir\main.cpp.obj: ..\funs.h
 CMakeFiles\Lab4.dir\main.cpp.obj: ..\main.cpp
 
